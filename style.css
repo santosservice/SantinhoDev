@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+
+}
+
+body {
+    display: block;
+    margin-left: 0 auto;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+html {
+    display: block;
+    width: 100vw;
+    height: 100vw;
+
+}
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+header {
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid black;
+
+}
+
+.container>.logoanimaA3logounp>.logoAnima,
+.container>.a3>.logo2 img {
+    width: 100%;
+    align-items: center;
+
+}
+
+.container>.logoanimaA3logounp>div img,
+img#logo2 {
+    max-width: 15vw;
+    max-height: 100%;
+}
+
+.a3 p {
+    font-size: 2vw;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: -12px;
+
+}
+
+.a3 {
+    display: flex;
+    font-size: 7vw;
+    width: 11%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.tilofinal {
+    width: 100%;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 3.5vw;
+}
+
+
+div>.uc {
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    font-weight: bolder;
+    color: white;
+}
+
+
+
+.integrantes {
+    width: 100%;
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    /* justify-content: space-between; */
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border-bottom: 5px solid black;
+    background-color: rgb(6, 138, 28);
+    grid-template-areas: 'inicio inicio''l1c1 l1c2';
+
+}
+.alunos > div img{
+    
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    
+}
+
+
+p#nome{
+    width: 15vw;
+    font-size: 1.2vw;
+}
+
+.alunos {
+    /* gap: 1px; */
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
+    
+
+
+}
+
+/* .Wanfranklin{
+    margin-left: 5vw;
+} */
+
+.edyene{
+    grid-column: 3;
+    grid-row: 1;
+    margin-left: 5vw;
+    
+}
+.config {
+    width: 15vw;
+    padding: 1vw;
+    
+  
+}
+
+
+
+
+.entrada {
+    width: 100vw;
+    background-image: url(imagens/codigo2.png);
+    background-position: top center;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-style: italic;
+
+
+}
+
+.entrada h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background: linear-gradient(to top, #000, transparent);
+
+
+}
+
+.entrada h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background: linear-gradient(to top, #000, transparent);
+
+}
+
+.entrada p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to top, #000, transparent);
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #89ac0e;
+    border-top: 5px solid black;
+}
+
+.prudutos-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+}
